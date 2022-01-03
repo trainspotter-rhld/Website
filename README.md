@@ -3,6 +3,7 @@
 This is iDevs _(Omega579)_ Website Template
 
 ```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,6 +60,5 @@ This is iDevs _(Omega579)_ Website Template
 </body>
 </html>
 ```
-
 
 _This is the main index.html page._
