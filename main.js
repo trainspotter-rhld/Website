@@ -16,5 +16,3 @@ const random = Math.random();
 
 console.log(random);
 
-let Welcomemessage = "Welcome!"
-alert(Welcomemessage)
