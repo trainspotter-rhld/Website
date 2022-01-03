@@ -27,7 +27,6 @@ video {
     height: 50%;
 }
 .bar {
-    position: sticky;
     text-decoration: transparent;
     background-color: rgb(169, 165, 182);
 }
@@ -38,7 +37,7 @@ h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;  /*Chrome*/
 
-
+}
 
   .welcomescreen {
       padding: 4em;
@@ -46,9 +45,7 @@ h1 {
       border: solid black;
   }
 
-  .aboutcomp {
-      
-  }
+  
 
   .colorspace {
     line-height: 2;
@@ -57,4 +54,8 @@ h1 {
     border: 20px ,solid, black;
     border-radius: 2cm;
 
+  }
+
+  .footer {
+    align-items: center;
   }
