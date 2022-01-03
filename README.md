@@ -1,6 +1,7 @@
 # Website
 
 This is iDevs _(Omega579)_ Website Template
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -56,7 +57,8 @@ This is iDevs _(Omega579)_ Website Template
 <
     </div>
 </body>
-</html>```
+</html>
+```
 
 
 _This is the main index.html page._
