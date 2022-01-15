@@ -60,3 +60,7 @@ h1 {
     background: rgb(179, 179, 179);
     color: rgb(100, 100, 100);
   }
+
+  a {
+      color: rgb(255, 255, 255);
+    }
