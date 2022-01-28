@@ -67,5 +67,9 @@ h1 {
     }
 
     a:hover {
-        color: rgba(0, 47, 255, 0.507);
+        color: rgb(129, 129, 129);
+    }
+
+    .navbar {
+        background-color: black;
     }
