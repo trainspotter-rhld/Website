@@ -38,6 +38,7 @@ h1 {
       padding: 4em;
       padding-left: 2em;
       border: solid black;
+      border-radius: 5px;
   }
 
   
@@ -52,10 +53,11 @@ h1 {
   }
 
   .footer {
-    border-radius: 30px;
+    border-radius: 5px;
     align-items: center;
     background: rgb(179, 179, 179);
     color: rgb(100, 100, 100);
+    padding: 0.1px;
   }
 
   a , li {
@@ -79,6 +81,7 @@ h1 {
     align-items: center;
     padding: 30px 10%;
     border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
     }
     #navtitle {
         color: white;
