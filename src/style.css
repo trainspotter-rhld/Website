@@ -76,13 +76,15 @@ h1 {
       background-color: #24252A;
     }
     header {
+    position : sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
     border-radius: 5px;
     border: 2px solid rgb(255, 255, 255);
-    }
+}
     #navtitle {
         color: white;
     }
@@ -109,4 +111,16 @@ h1 {
         color: azure;
         background-color:black;
         border-radius: 3px;
+    }
+
+    .loginbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #bdbdbd;
+        margin: 10%;
+    }
+
+    #loginmain {
+        color: rgb(0, 0, 0);
     }
