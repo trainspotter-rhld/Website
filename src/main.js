@@ -1,11 +1,5 @@
-
-function Sign_in() {
-    alert('Sign in...')
+document.getElementById("first").cta = (e) => {
+    let tag = document.querySelector(".cta");
+    const redirect = 
 }
 
-const random = Math.random();
-
-console.log(random);
-
-const cta = document.querySelector(".cta")
-console.log(cta);
