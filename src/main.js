@@ -1,12 +1,3 @@
-    function Support() {
-    alert('Thanks-')
-    alert('For supporting Me!')
-    console.log(`ssButton_${random} Preesed`)
-}
-
-function Help() {
-    alert('Help. You need to Search ')
-}
 
 function Sign_in() {
     alert('Sign in...')
@@ -15,3 +6,6 @@ function Sign_in() {
 const random = Math.random();
 
 console.log(random);
+
+const cta = document.querySelector(".cta")
+console.log(cta);
