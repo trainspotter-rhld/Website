@@ -1,5 +1,6 @@
 {
     "html.autoClosingTags": true,
     "liveServer.settings.multiRootWorkspaceName": "Website",
-    "css.completion.completePropertyWithSemicolon": true
+    "css.completion.completePropertyWithSemicolon": true,
+    "html.autoCreateQuotes": true,
 }
