@@ -119,6 +119,9 @@ h1 {
         align-items: center;
         background: #bdbdbd;
         margin: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding: left -1px;;
     }
 
     #loginmain {
