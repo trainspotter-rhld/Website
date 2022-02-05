@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/iDevYT/Website/issues"
   },
-  "homepage": "https://github.com/iDevYT/Website#readme"
+  "homepage": "https://github.com/iDevYT/Website#readme",
+  "dependencies": {
+    "firebase": "^9.6.6"
+  }
 }
