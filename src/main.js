@@ -1,5 +1,4 @@
-document.getElementById("first").cta = (e) => {
-    let tag = document.querySelector(".cta");
-    const redirect = 
-}
-
+const button = document.getElementById("cta")
+button.onclick = function() {	
+   console.log(button)
+};

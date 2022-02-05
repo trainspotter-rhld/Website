@@ -7,6 +7,5 @@ These are the versions
 | Browser | Supported          |
 | ------- | ------------------ |
 | WebKit   | :white_check_mark: |
-| IE   | :x:                |
+| IE       | :x:                |
 | Firefox  | :white_check_mark: |
-
