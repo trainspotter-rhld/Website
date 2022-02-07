@@ -127,3 +127,8 @@ h1 {
     #loginmain {
         color: rgb(0, 0, 0);
     }
+
+    .loginmain{
+        background-image: url(/img/logo.png);
+    }
+
