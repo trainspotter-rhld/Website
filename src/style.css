@@ -119,11 +119,12 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #bdbdbd;
-        margin: 10%;
+        background: #aaaaaa;
+        margin: 30%;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding: left -1px;;
+        border: solid 1px #8f8f8f;
+        border-radius: 10px;
     }
 
     #loginmain {
@@ -134,3 +135,15 @@ h1 {
         background-image: url(/img/logo.png);
     }
 
+    
+    #results {
+        color: #fff;
+        background-color: rgb(255, 174, 0);
+        border: 5px solid hsl(0, 91%, 64%);
+        border-radius: 11px;
+        
+    }
+
+    #logintitle {
+        color: hsl(0, 9%, 22%);
+    }
