@@ -12,6 +12,7 @@ kbd {
     width: 20px;
     height: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 section {
@@ -36,9 +37,9 @@ h1 {
 }
   .welcomescreen {
       padding: 4em;
-      padding-left: 2em;
-      border: solid black;
-      border-radius: 5px;
+      padding-left: 15em;
+      border: solid rgb(255, 255, 255);
+      border-radius: 20px;
   }
 
   
@@ -119,14 +120,13 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        
         margin: 20%;
         padding-top: 10px;
         padding-bottom: 10px;
         border: solid 1px #8f8f8f;
         border-radius: 10px;
         background: rgba( 255, 255, 255, 0.5 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         backdrop-filter: blur( 17px );
         -webkit-backdrop-filter: blur( 17px );
         border-radius: 10px;
@@ -138,7 +138,7 @@ h1 {
     }
 
     .loginmain{
-        background-image: url(/img/logo.png);
+        background-image: url(/img/bg.jpg);
     }
 
     
@@ -152,4 +152,22 @@ h1 {
 
     #logintitle {
         color: hsl(0, 9%, 22%);
+    }
+
+    .grreen {
+        width: 58px;
+        height: 23px;
+        background: linear-gradient(100.16deg, #DBFF00 7.97%, #70FF00 99.53%);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border-radius: 13px;
+        border:transparent;
+    }
+
+    .red {
+        width: 58px;
+        height: 23px;
+        background: linear-gradient( #ff0000 , #ffc400);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border-radius: 13px;
+        border:transparent;
     }
