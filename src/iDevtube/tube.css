@@ -59,3 +59,16 @@ a , li {
   a:hover {
       color: rgb(129, 129, 129);
   }
+ .vidbox{
+    display: grid;
+            gap: 1rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+ }
+
+ .content {
+     background: #24252A;
+     color: #fff;
+     padding: 20px;
+     border-radius:10px ;
+ }
