@@ -79,6 +79,8 @@ h1 {
       background-color: #24252A;
     }
     header {
+    position : -webkit-sticky;
+    position : -ms-sticky;
     position : sticky;
     top: 0;
     display: flex;
