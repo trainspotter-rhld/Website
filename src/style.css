@@ -142,6 +142,7 @@ h1 {
 
     .loginmain{
         background-image: url(/img/bg.jpg);
+        background-size: 100%;
     }
 
     
