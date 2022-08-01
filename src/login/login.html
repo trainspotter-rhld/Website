@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Log-in</title>
+</head>
+<body class="loginmain">
+    <div class="loginbox">    
+        <h1 id="logintitle" >Login
+            
+        </h1><br>
+        <form action="./results.html" method="GET" class="login">
+            <div>
+                <label for="name">Login</label>
+                <input type="text" name="name" id="name" placeholder="Type your name" required>
+            </div>
+            <div>
+                <label for="emad">E-mail</label>
+                <input type="email" name="email" id="emad" placeholder="Enter your email address" required>	
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="0" max="200" step="1">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <label for="date">Password</label>
+                <input type="date" name="date" id="date" placeholder="DD.MM.JJJJ" required>
+            </div>
+            <div>
+                <button type="submit" class="grreen">submit</button>
+                <button type="reset" class="red">reset</button>
+            </div>
+            <p>are you done yust press <kbd>Enter</kbd>!</p>
+        </form>
+    </div>
+</body>
+</html>
